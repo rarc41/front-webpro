@@ -136,6 +136,7 @@ const Proyectos = ({ usuario }) => {
           <MostrarProyecto
             handleClose={() => setShow(false)}
             proyect={proyecto}
+            usuario={usuario}
           />
         )}
       </div>

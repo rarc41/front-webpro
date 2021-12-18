@@ -28,7 +28,7 @@ export default function Home() {
   // validar la seccion de usuarios
 
   const { data, loading, error } = useQuery(OBTENER_USUARIO, {
-    fetchPolicy: "network-only",
+    fetchPolicy: "no-cache",
   });
 
   if (loading) return "Cargando...";
